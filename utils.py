@@ -19,7 +19,7 @@ def ReadData(data):
         #Deutsches Museum Data
         name = "Deutsches_Museum"
         lidar = Lidar(-2.351831,2.351831,1079)
-        mat_file = io.loadmat("data/horizental_lidar.mat")
+        mat_file = io.loadmat("horizental_lidar.mat")
         lidar_data = np.array(mat_file['ranges'])
 
     elif data ==1:
